@@ -12,6 +12,11 @@ export default function Nav() {
   const [active, setActive] = useState("");
 
   useEffect(() => {
+    const hero = document.getElementById("top");
+    if (!hero) {
+      setScrolled(true);
+      return;
+    }
     const onScroll = () => setScrolled(window.scrollY > window.innerHeight * 0.7);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -39,18 +44,14 @@ export default function Nav() {
   return (
     <header className={`fixed left-0 top-0 z-50 w-full transition-colors duration-500 ${scrolled ? "border-b border-black/5 bg-white/70 backdrop-blur-xl" : "bg-transparent"}`}>
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-        <a href="#top" className={`text-lg font-semibold tracking-tight transition-colors ${scrolled ? "text-[var(--foreground)]" : "text-white"}`}>
-          Pyrigen
-        </a>
+        <a href="/" className={`text-lg font-semibold tracking-tight transition-colors ${scrolled ? "text-[var(--foreground)]" : "text-white"}`}>Pyrigen</a>
         <ul className="flex items-center gap-4 text-sm sm:gap-8">
           {links.map((l) => {
             const isActive = active === l.id;
             const base = scrolled ? "text-black/55 hover:text-black" : "text-white/70 hover:text-white";
             return (
               <li key={l.id}>
-                <a href={`#${l.id}`} className={`transition-colors ${isActive ? "text-[var(--accent)]" : base}`}>
-                  {l.label}
-                </a>
+                <a href={`#${l.id}`} className={`transition-colors ${isActive ? "text-[var(--accent)]" : base}`}>{l.label}</a>
               </li>
             );
           })}
