@@ -9,7 +9,7 @@ export default function Home() {
       <section className="mx-auto max-w-3xl px-6 py-40 text-center">
         <Reveal>
           <h2 className="text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-tight tracking-tight">
-            We build calm, evidence-based software that helps people change.
+            We build science-backed AI solutions that accelerate human growth.
           </h2>
         </Reveal>
       </section>
