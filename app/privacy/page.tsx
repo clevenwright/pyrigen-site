@@ -19,20 +19,21 @@ export default function Privacy() {
         <li><span className="font-medium text-black/80">Your inputs.</span> The goals and text you type into the app, which our AI uses to generate your affirmations.</li>
         <li><span className="font-medium text-black/80">Believability ratings.</span> Your 1&ndash;5 laddering feedback on each affirmation.</li>
         <li><span className="font-medium text-black/80">Generated content.</span> The affirmation text and anthem audio created for you, stored in Firebase Storage.</li>
+        <li><span className="font-medium text-black/80">Usage data.</span> Analytics about how you interact with the app (events, sessions, and device and app information, including a device identifier), collected through Google Analytics for Firebase to help us understand usage and improve the service.</li>
         <li><span className="font-medium text-black/80">Session data.</span> Information used to keep you signed in and preserve your journey between visits.</li>
       </ul>
 
       <p className="mt-6 rounded-2xl bg-[var(--bg-muted)] p-6 text-black/70">
-        <span className="font-medium">SoulAnthem does not collect or record your voice.</span> You type text, and the app generates the audio journey as output. We do not use dedicated analytics or crash-reporting tools.
+        <span className="font-medium">SoulAnthem does not collect or record your voice.</span> You type text, and the app generates the audio journey as output. We do not use your information for third-party advertising or cross-app tracking.
       </p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">How We Use Your Information</h2>
-      <p className="mt-4 text-black/60">We use your information to authenticate your account, generate your personalized affirmations and anthem audio, save and restore your progress, and operate and improve the service.</p>
+      <p className="mt-4 text-black/60">We use your information to authenticate your account, generate your personalized affirmations and anthem audio, save and restore your progress, understand usage through analytics, and operate and improve the service.</p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Service Providers</h2>
       <p className="mt-4 text-black/60">We rely on trusted third parties to operate SoulAnthem. They process your information only to provide their services to us:</p>
       <ul className="mt-4 space-y-3 text-black/60">
-        <li><span className="font-medium text-black/80">Google (Firebase &amp; Google Sign-In).</span> Authentication (Google Sign-In), and Firebase Hosting, Storage, Authentication, and Cloud Functions for running the app and storing your data.</li>
+        <li><span className="font-medium text-black/80">Google (Firebase &amp; Google Sign-In).</span> Authentication (Google Sign-In); Firebase Hosting, Storage, Authentication, and Cloud Functions for running the app and storing your data; and Google Analytics for Firebase for usage analytics.</li>
         <li><span className="font-medium text-black/80">Anthropic.</span> Processes the text you provide, via our Cloud Functions, to generate your affirmations.</li>
         <li><span className="font-medium text-black/80">ElevenLabs.</span> Generates the anthem audio from the affirmation text.</li>
       </ul>
