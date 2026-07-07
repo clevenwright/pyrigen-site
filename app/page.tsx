@@ -14,7 +14,7 @@ export default function Home() {
         </Reveal>
       </section>
 
-      <section id="soulanthem" className="scroll-mt-24 px-6 py-40">
+      <section id="soulanthem" className="scroll-mt-24 px-6 py-40 text-center">
         <div className="mx-auto max-w-3xl">
           <Reveal>
             <p className="text-sm uppercase tracking-[0.2em] text-black/40">Venture 01</p>
@@ -22,7 +22,7 @@ export default function Home() {
             <p className="mt-6 text-xl leading-relaxed text-black/70">
               A voice-driven companion for building real self-belief.
             </p>
-            <p className="mt-4 text-lg leading-relaxed text-black/55">
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
               SoulAnthem uses believability-laddering and Bandura&apos;s self-efficacy framework to move people from doubt to genuine confidence, not with empty affirmations but with honest, achievable steps that compound over time. An adaptive voice profile meets each person where they are and grows with them.
             </p>
             <a href="https://soulanthem.ai" className="mt-8 inline-block text-[var(--accent)] hover:underline">
@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="provemastery" className="scroll-mt-24 bg-[var(--bg-muted)] px-6 py-40">
+      <section id="provemastery" className="scroll-mt-24 bg-[var(--bg-muted)] px-6 py-40 text-center">
         <div className="mx-auto max-w-3xl">
           <Reveal>
             <p className="text-sm uppercase tracking-[0.2em] text-black/40">Venture 02</p>
@@ -40,7 +40,7 @@ export default function Home() {
             <p className="mt-6 text-xl leading-relaxed text-black/70">
               Turn learning into proof of skill.
             </p>
-            <p className="mt-4 text-lg leading-relaxed text-black/55">
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
               ProveMastery is an AI training platform built around a six-stage mastery loop that guides learners from first exposure to demonstrated competence. Its core is the Mastery Proof Report, a verifiable record that shows someone can actually do the thing, not just that they finished a course.
             </p>
             <a href="https://provemastery.ai" className="mt-8 inline-block text-[var(--accent)] hover:underline">
