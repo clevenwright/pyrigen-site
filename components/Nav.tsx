@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import { PyrigenMark } from "./PyrigenLogo";
 
 const links = [
   { id: "soulanthem", label: "SoulAnthem" },
@@ -44,7 +45,10 @@ export default function Nav() {
   return (
     <header className={`fixed left-0 top-0 z-50 w-full transition-colors duration-500 ${scrolled ? "border-b border-black/5 bg-white/70 backdrop-blur-xl" : "bg-transparent"}`}>
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-        <a href="/" className={`text-lg font-semibold tracking-tight transition-colors ${scrolled ? "text-[var(--foreground)]" : "text-white"}`}>Pyrigen</a>
+        <a href="/" className={`flex items-center gap-2.5 text-lg font-semibold tracking-tight transition-colors ${scrolled ? "text-[var(--foreground)]" : "text-white"}`}>
+          <PyrigenMark className="h-7 w-auto" />
+          <span>Pyrigen</span>
+        </a>
         <ul className="flex items-center gap-4 text-sm sm:gap-8">
           {links.map((l) => {
             const isActive = active === l.id;
