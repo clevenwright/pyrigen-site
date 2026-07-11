@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Pyrigen",
   description: "A studio building evidence-based software ventures.",
+  verification: {
+    google: "abc123XYZ_realcodehere",
+  },
 };
 
 export default function RootLayout({
