@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import Reveal from "@/components/Reveal";
 
@@ -17,6 +18,13 @@ export default function Home() {
       <section id="soulanthem" className="scroll-mt-24 px-6 py-40 text-center">
         <div className="mx-auto max-w-3xl">
           <Reveal>
+            <Image
+              src="/soulanthem_sprout.png"
+              alt="SoulAnthem"
+              width={512}
+              height={512}
+              className="mb-6 h-20 w-auto mx-auto sm:h-24"
+            />
             <p className="text-sm uppercase tracking-[0.2em] text-black/40">Venture 01</p>
             <h3 className="mt-4 text-4xl font-semibold tracking-tight">SoulAnthem</h3>
             <p className="mt-6 text-xl leading-relaxed text-black/70">
