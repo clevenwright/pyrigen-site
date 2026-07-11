@@ -74,8 +74,17 @@ export default function Home() {
       </section>
 
       <footer className="px-6 py-12 text-center text-sm text-black/40">
-        <p>Pyrigen Incorporated, a Texas corporation</p>
-        <p className="mt-2">
+        <div className="border-t border-black/10 pt-8">
+          <p className="font-medium text-black/55">Pyrigen Incorporated</p>
+          <p>Little Elm, Texas, USA</p>
+          <p>
+            <a href="mailto:admin@pyrigen.com" className="hover:text-black/70">
+              admin@pyrigen.com
+            </a>
+          </p>
+          <p className="mt-2">© 2026 Pyrigen Incorporated. All rights reserved.</p>
+        </div>
+        <p className="mt-4">
           <a href="/privacy" className="hover:text-black/70">Privacy Policy</a>
         </p>
       </footer>
