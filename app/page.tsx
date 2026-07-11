@@ -26,7 +26,8 @@ export default function Home() {
               className="mb-6 h-20 w-auto mx-auto sm:h-24"
             />
             <p className="text-sm uppercase tracking-[0.2em] text-black/40">Venture 01</p>
-            <h3 className="mt-4 text-4xl font-semibold tracking-tight">SoulAnthem</h3>
+            <h3 className="mt-4 text-4xl font-semibold tracking-tight">Soul<span className="text-[#c2703d]">Anthem</span></h3>
+            <div className="mx-auto mt-3 h-[3px] w-16 rounded-full bg-[#c2703d]" />
             <p className="mt-6 text-xl leading-relaxed text-black/70">
               A voice-driven companion for building real self-belief.
             </p>
@@ -44,7 +45,8 @@ export default function Home() {
         <div className="mx-auto max-w-3xl">
           <Reveal>
             <p className="text-sm uppercase tracking-[0.2em] text-black/40">Venture 02</p>
-            <h3 className="mt-4 text-4xl font-semibold tracking-tight">ProveMastery</h3>
+            <h3 className="mt-4 text-4xl font-semibold tracking-tight">Prove<span className="text-[#059669]">Mastery</span></h3>
+            <div className="mx-auto mt-3 h-[3px] w-16 rounded-full bg-[#059669]" />
             <p className="mt-6 text-xl leading-relaxed text-black/70">
               Turn learning into proof of skill.
             </p>
