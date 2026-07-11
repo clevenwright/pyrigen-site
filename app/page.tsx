@@ -44,6 +44,13 @@ export default function Home() {
       <section id="provemastery" className="scroll-mt-24 bg-[var(--bg-muted)] px-6 py-40 text-center">
         <div className="mx-auto max-w-3xl">
           <Reveal>
+            <Image
+              src="/provemastery_seal.png"
+              alt="ProveMastery"
+              width={512}
+              height={512}
+              className="mb-6 h-20 w-auto mx-auto sm:h-24"
+            />
             <p className="text-sm uppercase tracking-[0.2em] text-black/40">Venture 02</p>
             <h3 className="mt-4 text-4xl font-semibold tracking-tight">Prove<span className="text-[#059669]">Mastery</span></h3>
             <div className="mx-auto mt-3 h-[3px] w-16 rounded-full bg-[#059669]" />
