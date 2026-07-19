@@ -38,6 +38,21 @@ export default function Privacy() {
         <li><span className="font-medium text-black/80">ElevenLabs.</span> Generates the anthem audio from the affirmation text.</li>
       </ul>
 
+      <h2 className="mt-12 text-xl font-semibold tracking-tight">SMS and text messaging</h2>
+      <p className="mt-4 text-black/60">
+        When you schedule an appointment with Pyrigen, including through our AI phone assistant, and you provide your mobile number, we may send you SMS text messages for appointment confirmations and reminders. We collect your mobile number and your consent for this purpose only.
+      </p>
+      <p className="mt-4 text-black/60">
+        We use Twilio as our SMS service provider to deliver these messages. No mobile information is shared with third parties or affiliates for marketing or promotional purposes. Text messaging originator opt in data and consent are not shared with any third parties.
+      </p>
+      <p className="mt-4 text-black/60">
+        Message frequency varies with your appointment activity. Message and data rates may apply. You can opt out at any time by replying STOP, and reply HELP for help. See our Terms and Conditions at{" "}
+        <a href="https://www.pyrigen.com/terms" className="text-[var(--accent)] hover:underline">
+          https://www.pyrigen.com/terms
+        </a>
+        .
+      </p>
+
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Data Storage and Security</h2>
       <p className="mt-4 text-black/60">Your data is stored using Google Firebase infrastructure. We use industry-standard measures to protect it, but no method of transmission or storage is completely secure.</p>
 

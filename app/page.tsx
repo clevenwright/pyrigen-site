@@ -214,6 +214,8 @@ export default function Home() {
         </div>
         <p className="mt-4">
           <a href="/privacy" className="hover:text-black/70">Privacy Policy</a>
+          <span className="mx-2">·</span>
+          <a href="/terms" className="hover:text-black/70">Terms and Conditions</a>
         </p>
       </footer>
     </main>
