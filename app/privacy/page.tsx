@@ -1,42 +1,40 @@
 export const metadata = {
-  title: "Privacy Policy — SoulAnthem",
-  description: "How SoulAnthem and Pyrigen Incorporated handle your data.",
+  title: "Privacy Policy — Pyrigen Incorporated",
+  description:
+    "How Pyrigen Incorporated handles information in connection with its corporate website and business operations.",
 };
 
 export default function Privacy() {
   return (
     <main className="mx-auto max-w-3xl px-6 pt-32 pb-24">
       <h1 className="text-4xl font-semibold tracking-tight">Privacy Policy</h1>
-      <p className="mt-3 text-sm text-black/40">Effective date: July 6, 2026</p>
+      <p className="mt-3 text-sm text-black/40">Last Updated: July 19, 2026</p>
+
+      <div className="mt-8 rounded-2xl bg-[var(--bg-muted)] p-6 text-black/70">
+        <p>
+          <span className="font-medium">Using SoulAnthem?</span> This Privacy Policy covers the corporate operations of Pyrigen Incorporated. It does not govern the SoulAnthem app. If you use SoulAnthem, its data practices are described in the SoulAnthem Privacy Policy at{" "}
+          <a href="https://soulanthem.ai/privacy" className="text-[var(--accent)] hover:underline">soulanthem.ai/privacy</a>{" "}
+          and the SoulAnthem Consumer Health Data Privacy Policy.
+        </p>
+        <p className="mt-4">
+          <span className="font-medium">Conflict control.</span> For SoulAnthem data practices, SoulAnthem&apos;s product-specific privacy policies control over this Privacy Policy to the extent of any conflict.
+        </p>
+      </div>
 
       <p className="mt-8 text-lg leading-relaxed text-black/60">
-        This Privacy Policy explains how SoulAnthem, a product of Pyrigen Incorporated (&quot;Pyrigen,&quot; &quot;we,&quot; &quot;us&quot;), collects, uses, and protects your information when you use the SoulAnthem app.
+        This Privacy Policy explains how Pyrigen Incorporated (&quot;Pyrigen,&quot; &quot;we,&quot; &quot;us&quot;), a Texas corporation, handles information in connection with our corporate website at pyrigen.com and our related business operations, such as responding to inquiries and running our appointment messaging program.
       </p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Information We Collect</h2>
+      <p className="mt-4 text-black/60">Our website is informational. You do not need to create an account or submit a form to use it, we do not use analytics or advertising trackers, and we do not use cross-site tracking. We collect only the following:</p>
       <ul className="mt-4 space-y-3 text-black/60">
-        <li><span className="font-medium text-black/80">Account information.</span> When you sign in through Google Sign-In at &quot;Begin Your Journey,&quot; we receive your name, email address, and basic Google profile information.</li>
-        <li><span className="font-medium text-black/80">Your inputs.</span> The goals and text you type into the app, which our AI uses to generate your affirmations.</li>
-        <li><span className="font-medium text-black/80">Believability ratings.</span> Your 1&ndash;5 laddering feedback on each affirmation.</li>
-        <li><span className="font-medium text-black/80">Generated content.</span> The affirmation text and anthem audio created for you, stored in Firebase Storage.</li>
-        <li><span className="font-medium text-black/80">Usage data.</span> Analytics about how you interact with the app (events, sessions, and device and app information, including a device identifier), collected through Google Analytics for Firebase to help us understand usage and improve the service.</li>
-        <li><span className="font-medium text-black/80">Session data.</span> Information used to keep you signed in and preserve your journey between visits.</li>
+        <li><span className="font-medium text-black/80">Technical information.</span> When you visit the site, our hosting provider automatically processes standard technical data such as your IP address, browser type, and request logs, so the site can be served reliably and kept secure.</li>
+        <li><span className="font-medium text-black/80">Information you send us.</span> If you email one of the addresses listed on this site, we receive your email address and whatever you choose to include in your message.</li>
+        <li><span className="font-medium text-black/80">Appointment and messaging information.</span> If you schedule an appointment with us, including through our AI phone assistant, and choose to receive text messages, we collect your mobile number and your consent, as described under &quot;SMS and text messaging&quot; below.</li>
       </ul>
 
-      <p className="mt-6 rounded-2xl bg-[var(--bg-muted)] p-6 text-black/70">
-        <span className="font-medium">SoulAnthem does not collect or record your voice.</span> You type text, and the app generates the audio journey as output. We do not use your information for third-party advertising or cross-app tracking.
-      </p>
-
-      <h2 className="mt-12 text-xl font-semibold tracking-tight">How We Use Your Information</h2>
-      <p className="mt-4 text-black/60">We use your information to authenticate your account, generate your personalized affirmations and anthem audio, save and restore your progress, understand usage through analytics, and operate and improve the service.</p>
-
-      <h2 className="mt-12 text-xl font-semibold tracking-tight">Service Providers</h2>
-      <p className="mt-4 text-black/60">We rely on trusted third parties to operate SoulAnthem. They process your information only to provide their services to us:</p>
-      <ul className="mt-4 space-y-3 text-black/60">
-        <li><span className="font-medium text-black/80">Google (Firebase &amp; Google Sign-In).</span> Authentication (Google Sign-In); Firebase Hosting, Storage, Authentication, and Cloud Functions for running the app and storing your data; and Google Analytics for Firebase for usage analytics.</li>
-        <li><span className="font-medium text-black/80">Anthropic.</span> Processes the text you provide, via our Cloud Functions, to generate your affirmations.</li>
-        <li><span className="font-medium text-black/80">ElevenLabs.</span> Generates the anthem audio from the affirmation text.</li>
-      </ul>
+      <h2 className="mt-12 text-xl font-semibold tracking-tight">How We Use Information</h2>
+      <p className="mt-4 text-black/60">We use this information to operate and secure our website, respond to inquiries you send us, schedule appointments and send the confirmations and reminders you have asked for, and comply with our legal obligations. We do not sell your personal information, and we do not use it for third-party advertising or cross-app tracking.</p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">SMS and text messaging</h2>
       <p className="mt-4 text-black/60">
@@ -53,23 +51,20 @@ export default function Privacy() {
         .
       </p>
 
-      <h2 className="mt-12 text-xl font-semibold tracking-tight">Data Storage and Security</h2>
-      <p className="mt-4 text-black/60">Your data is stored using Google Firebase infrastructure. We use industry-standard measures to protect it, but no method of transmission or storage is completely secure.</p>
-
-      <h2 className="mt-12 text-xl font-semibold tracking-tight">International Data Processing</h2>
-      <p className="mt-4 text-black/60">Our services run on Google Cloud infrastructure located in the United States (Cloud Functions in the us-central1 region). If you use SoulAnthem from outside the United States, your information will be processed in the U.S. and other countries where our service providers operate.</p>
+      <h2 className="mt-12 text-xl font-semibold tracking-tight">Service Providers</h2>
+      <p className="mt-4 text-black/60">We keep our corporate operations lean and rely on a small number of service providers: a cloud hosting provider that serves and secures this website, and the SMS delivery provider named above for our appointment messages. These providers process information on our behalf only as needed to provide their services to us, support security and reliability, or comply with legal obligations. We may update our service providers from time to time as our operations evolve.</p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Data Retention and Your Choices</h2>
-      <p className="mt-4 text-black/60">We keep your information while your account is active. You may request access to, correction of, or deletion of your data at any time by contacting us at the email below, and we will respond consistent with applicable law.</p>
+      <p className="mt-4 text-black/60">We keep information only as long as needed for the purposes described here or as required by law. You may ask us to access, correct, or delete information you have sent us by emailing the address below, and you can stop appointment texts at any time by replying STOP. We will respond consistent with applicable law.</p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Children&apos;s Privacy</h2>
-      <p className="mt-4 text-black/60">SoulAnthem is intended for adults and is not directed to children. You must be at least 18 years old to use the app, and we ask you to confirm your age during onboarding. We do not knowingly collect personal information from anyone under 18. If you believe a minor has provided us information, contact us at the email below and we will delete it.</p>
+      <p className="mt-4 text-black/60">Our website and corporate communications are directed to businesses and adults, not to children, and we do not knowingly collect personal information from children.</p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Changes to This Policy</h2>
-      <p className="mt-4 text-black/60">We may update this policy from time to time. Material changes will be reflected by updating the effective date above.</p>
+      <p className="mt-4 text-black/60">We may update this policy from time to time. Material changes will be reflected by updating the date above.</p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Contact</h2>
-      <p className="mt-4 text-black/60">Pyrigen Incorporated, a Texas corporation. Questions or requests: <a href="mailto:hello@pyrigen.com" className="text-[var(--accent)] hover:underline">hello@pyrigen.com</a></p>
+      <p className="mt-4 text-black/60">Pyrigen Incorporated, a Texas corporation, Little Elm, Texas. Questions or requests: <a href="mailto:hello@pyrigen.com" className="text-[var(--accent)] hover:underline">hello@pyrigen.com</a></p>
 
       <p className="mt-16"><a href="/" className="text-[var(--accent)] hover:underline">&larr; Back to Pyrigen</a></p>
     </main>
