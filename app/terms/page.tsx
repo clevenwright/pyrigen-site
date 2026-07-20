@@ -50,6 +50,10 @@ export default function Terms() {
           For help, text HELP to the number that messaged you, or contact us at{" "}
           <a href="mailto:support@pyrigen.com" className="text-[var(--accent)] hover:underline">
             support@pyrigen.com
+          </a>{" "}
+          or{" "}
+          <a href="tel:+14694096061" className="text-[var(--accent)] hover:underline">
+            +1 469-409-6061
           </a>
           .
         </p>
@@ -81,6 +85,11 @@ export default function Terms() {
           Questions:{" "}
           <a href="mailto:support@pyrigen.com" className="text-[var(--accent)] hover:underline">
             support@pyrigen.com
+          </a>
+          <br />
+          Phone:{" "}
+          <a href="tel:+14694096061" className="text-[var(--accent)] hover:underline">
+            +1 469-409-6061
           </a>
         </p>
 
