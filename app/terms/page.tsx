@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Terms and Conditions | Pyrigen",
-  description: "Terms and conditions for the Pyrigen SMS appointment messaging program.",
+  description:
+    "Terms and conditions for Pyrigen services, including SoulAnthem subscriptions and SMS appointment messaging.",
 };
 
 export default function Terms() {
@@ -8,12 +9,14 @@ export default function Terms() {
     <>
       <main className="mx-auto max-w-3xl px-6 pt-32 pb-24">
         <h1 className="text-4xl font-semibold tracking-tight">Terms and Conditions</h1>
-        <p className="mt-3 text-sm text-black/40">Effective date: July 19, 2026</p>
+        <p className="mt-3 text-sm text-black/40">Effective date: July 20, 2026</p>
 
         <p className="mt-8 text-lg leading-relaxed text-black/60">
-          These Terms and Conditions, referred to as the Terms, govern your use of the SMS messaging service
-          provided by Pyrigen Incorporated, a Texas corporation, referred to as Pyrigen, we, or us. By
-          providing your mobile number and agreeing to receive text messages, you accept these Terms.
+          These Terms and Conditions, referred to as the Terms, govern your use of the Pyrigen services
+          described below, including SoulAnthem paid subscriptions and our SMS messaging service. Pyrigen
+          Incorporated, a Texas corporation, is referred to as Pyrigen, we, or us. By using the applicable
+          service, purchasing a subscription, or providing your mobile number and agreeing to receive text
+          messages, you accept these Terms.
         </p>
 
         <h2 className="mt-12 text-xl font-semibold tracking-tight">1. Program description</h2>
@@ -71,6 +74,32 @@ export default function Terms() {
           </a>
           . We do not sell or share mobile information with third parties or affiliates for their marketing or
           promotional purposes.
+        </p>
+
+        <h2 className="mt-12 text-xl font-semibold tracking-tight">
+          Subscriptions, Cancellation, and Refunds
+        </h2>
+        <p className="mt-4 text-black/60">
+          SoulAnthem offers paid subscription plans, including monthly and annual plans. Subscription prices,
+          billing periods, renewal terms, and any trial terms are shown at checkout before purchase.
+        </p>
+        <p className="mt-4 text-black/60">
+          Subscriptions renew automatically unless canceled before the next billing date. You may cancel your
+          subscription through the Stripe customer portal or other cancellation method we make available. If
+          you cancel, your access will continue through the end of the then-current paid subscription period,
+          and you will not be charged for the next period.
+        </p>
+        <p className="mt-4 text-black/60">
+          Except where required by applicable law, subscription payments are non-refundable and we do not
+          provide refunds or credits for partially used billing periods. If we are required by law to provide a
+          refund, we will do so in accordance with applicable law.
+        </p>
+        <p className="mt-4 text-black/60">
+          If you believe you were charged in error, please contact us at{" "}
+          <a href="mailto:support@pyrigen.com" className="text-[var(--accent)] hover:underline">
+            support@pyrigen.com
+          </a>
+          .
         </p>
 
         <h2 className="mt-12 text-xl font-semibold tracking-tight">8. Changes</h2>
