@@ -55,7 +55,7 @@ export default function RootLayout({
         name: "Who founded Pyrigen?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Pyrigen was founded in 2026 by Cleven Wright, who serves as Founder and CEO. Before Pyrigen, he spent 25 years in sales, enablement, and AI product leadership, most recently as Senior AI Business Solutions Product Manager at a national B2B organization, where he built SKYLAR, an AI enablement solution that delivered 15 to 20 percent productivity gains.",
+          text: "Pyrigen was founded in 2026 by Cleven Wright, who serves as Founder and CEO. Before Pyrigen, he spent 25 years in sales, enablement, and AI product leadership, most recently responsible for AI business solutions at a national B2B organization, where he directed cross-functional teams to design and deploy enterprise AI platforms adopted across the organization. That same conviction drives SoulAnthem.",
         },
       },
       {

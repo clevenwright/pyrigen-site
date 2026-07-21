@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Privacy Policy — Pyrigen Incorporated",
+  title: "Privacy Policy: Pyrigen Incorporated",
   description:
     "How Pyrigen Incorporated handles information in connection with its corporate website and business operations.",
 };
