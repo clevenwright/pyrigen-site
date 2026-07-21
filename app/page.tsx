@@ -13,7 +13,7 @@ export default function Home() {
             What is Pyrigen?
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-black/55">
-            Pyrigen is a software studio founded in 2026 and based in Little Elm, Texas. We build AI-powered applications at the intersection of applied artificial intelligence and human potential.
+            Pyrigen is a software studio founded in 2026 and based in Dallas, Texas. We build AI-powered applications at the intersection of applied artificial intelligence and human potential.
           </p>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
             We are not a consultancy and we are not an agency. We build and own our products. Each one starts from the same conviction: technology only matters when it changes how a real person performs, decides, or believes.
@@ -156,7 +156,7 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold">Where is Pyrigen located?</h3>
                 <p className="mt-4 leading-relaxed text-black/55">
-                  Pyrigen Incorporated is a Texas corporation headquartered in Little Elm, Texas.
+                  Pyrigen Incorporated is a Texas corporation headquartered in Dallas, Texas.
                 </p>
               </div>
             </Reveal>
@@ -204,7 +204,7 @@ export default function Home() {
       <footer className="px-6 py-12 text-center text-sm text-black/40">
         <div className="border-t border-black/10 pt-8">
           <p className="font-medium text-black/55">Pyrigen Incorporated</p>
-          <p>Little Elm, Texas, USA</p>
+          <p>Dallas, Texas, USA</p>
           <p>
             <a href="mailto:admin@pyrigen.com" className="hover:text-black/70">
               admin@pyrigen.com

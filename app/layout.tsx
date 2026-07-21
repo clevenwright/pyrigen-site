@@ -36,7 +36,7 @@ export default function RootLayout({
     foundingDate: "2026",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Little Elm",
+      addressLocality: "Dallas",
       addressRegion: "TX",
       addressCountry: "US",
     },
@@ -63,7 +63,7 @@ export default function RootLayout({
         name: "Where is Pyrigen located?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Pyrigen Incorporated is a Texas corporation headquartered in Little Elm, Texas.",
+          text: "Pyrigen Incorporated is a Texas corporation headquartered in Dallas, Texas.",
         },
       },
       {
