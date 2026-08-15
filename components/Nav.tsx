@@ -5,6 +5,7 @@ import { PyrigenMark } from "./PyrigenLogo";
 const links = [
   { id: "soulanthem", label: "SoulAnthem" },
   { id: "provemastery", label: "ProveMastery" },
+  { id: "voicereason", label: "VoiceReason" },
   { id: "contact", label: "Contact" },
 ];
 
