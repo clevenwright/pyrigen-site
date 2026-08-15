@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
 import Reveal from "@/components/Reveal";
+import { VoiceReasonMark } from "@/components/VoiceReasonMark";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
             We are not a consultancy and we are not an agency. We build and own our products. Each one starts from the same conviction: technology only matters when it changes how a real person performs, decides, or believes.
           </p>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
-            Pyrigen was founded by Cleven Wright, who spent 25 years in sales, enablement, and AI product leadership before starting the company, most recently responsible for AI business solutions at a national B2B organization, where he directed cross-functional teams to design and deploy enterprise AI platforms adopted across the organization. That same conviction drives SoulAnthem.
+            Pyrigen was founded by Cleven Wright, who spent 25 years in sales, enablement, and AI product leadership before starting the company, most recently responsible for AI business solutions at a national B2B organization, where he directed cross-functional teams to design and deploy enterprise AI platforms adopted across the organization. That same conviction drives every venture here.
           </p>
         </Reveal>
       </section>
@@ -99,6 +100,32 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="voicereason" className="scroll-mt-24 px-6 py-40 text-center">
+        <div className="mx-auto max-w-3xl">
+          <Reveal>
+            <VoiceReasonMark className="mb-6 h-20 w-auto mx-auto sm:h-24" />
+            <p className="text-sm uppercase tracking-[0.2em] text-black/40">Venture 03</p>
+            <h3 className="mt-4 text-4xl font-semibold tracking-tight">Voice<span className="text-[#6a3cff]">Reason</span></h3>
+            <div className="mx-auto mt-3 h-[3px] w-16 rounded-full bg-[#6a3cff]" />
+            <p className="mt-6 text-xl leading-relaxed text-black/70">
+              Practice the call that decides the deal.
+            </p>
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
+              VoiceReason is a spoken practice call against an AI buyer who pushes back. A salesperson builds the buyer they are actually dreading, has the conversation out loud, and gets an honest read on where they held and where they folded.
+            </p>
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
+              Every high-stakes profession rehearses before it performs. Pilots train in simulators, surgeons practise on models, athletes scrimmage. Sales is the last field that still sends people in cold, so the first time a rep says a hard thing out loud is usually to someone who can buy.
+            </p>
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
+              It rests on two established bodies of research: deliberate practice, which holds that skill comes from focused repetition with honest feedback rather than talent or tenure, and pressure training, which holds that composure under pressure is built by rehearsing under pressure.
+            </p>
+            <a href="https://voicereason.ai" className="mt-8 inline-block text-[var(--accent)] hover:underline">
+              Visit voicereason.ai
+            </a>
+          </Reveal>
+        </div>
+      </section>
+
       <section className="mx-auto max-w-5xl px-6 py-40 text-center">
         <Reveal>
           <h2 className="text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-tight tracking-tight">
@@ -148,7 +175,7 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold">Who founded Pyrigen?</h3>
                 <p className="mt-4 leading-relaxed text-black/55">
-                  Pyrigen was founded in 2026 by Cleven Wright, who serves as Founder and CEO. Before Pyrigen, he spent 25 years in sales, enablement, and AI product leadership, most recently responsible for AI business solutions at a national B2B organization, where he directed cross-functional teams to design and deploy enterprise AI platforms adopted across the organization. That same conviction drives SoulAnthem.
+                  Pyrigen was founded in 2026 by Cleven Wright, who serves as Founder and CEO. Before Pyrigen, he spent 25 years in sales, enablement, and AI product leadership, most recently responsible for AI business solutions at a national B2B organization, where he directed cross-functional teams to design and deploy enterprise AI platforms adopted across the organization. That same conviction drives every venture here.
                 </p>
               </div>
             </Reveal>
