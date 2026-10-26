@@ -2,6 +2,7 @@ import Image from "next/image";
 import Hero from "@/components/Hero";
 import Reveal from "@/components/Reveal";
 import { VoiceReasonMark } from "@/components/VoiceReasonMark";
+import { BeKnown360Mark } from "@/components/BeKnown360Mark";
 
 export default function Home() {
   return (
@@ -121,6 +122,32 @@ export default function Home() {
             </p>
             <a href="https://voicereason.ai" className="mt-8 inline-block text-[var(--accent)] hover:underline">
               Visit voicereason.ai
+            </a>
+          </Reveal>
+        </div>
+      </section>
+
+      <section id="beknown360" className="scroll-mt-24 bg-[var(--bg-muted)] px-6 py-40 text-center">
+        <div className="mx-auto max-w-3xl">
+          <Reveal>
+            <BeKnown360Mark className="mb-6 h-20 w-auto mx-auto sm:h-24" />
+            <p className="text-sm uppercase tracking-[0.2em] text-black/40">Venture 04</p>
+            <h3 className="mt-4 text-4xl font-semibold tracking-tight">BeKnown<span className="text-[#0b7a6f]">360</span></h3>
+            <div className="mx-auto mt-3 h-[3px] w-16 rounded-full bg-[#0f8b7e]" />
+            <p className="mt-6 text-xl leading-relaxed text-black/70">
+              Know where your business shows up. Then get the next move done.
+            </p>
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
+              BeKnown360 checks where a business appears on Google Maps, listing sites, Google reviews and AI answers from ChatGPT, Gemini, Claude and Google, and puts it all in one Found score with a history that says in plain words what moved it.
+            </p>
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
+              More buyers now ask an AI assistant before they search. Most visibility tools tell an owner what is wrong and stop there. BeKnown360 maps how a buyer actually decides, then gives a plan where every move has a named owner, a next step and a link to the finished work.
+            </p>
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
+              It is built for owners, not marketers: plain words, guided steps and walkthroughs for every connection. For owners who would rather have it done with them, Pyrigen&apos;s team works BeKnown360 for their business, and nothing goes out in their name until they approve it.
+            </p>
+            <a href="https://beknown360.com" className="mt-8 inline-block text-[var(--accent)] hover:underline">
+              Visit beknown360.com
             </a>
           </Reveal>
         </div>
