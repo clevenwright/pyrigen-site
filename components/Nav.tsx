@@ -6,6 +6,7 @@ const links = [
   { id: "soulanthem", label: "SoulAnthem" },
   { id: "provemastery", label: "ProveMastery" },
   { id: "voicereason", label: "VoiceReason" },
+  { id: "beknown360", label: "BeKnown360" },
   { id: "contact", label: "Contact" },
 ];
 
@@ -55,7 +56,7 @@ export default function Nav() {
             const isActive = active === l.id;
             const base = scrolled ? "text-black/55 hover:text-black" : "text-white/70 hover:text-white";
             return (
-              <li key={l.id}>
+              <li key={l.id} className={l.id === "contact" ? "" : "hidden md:block"}>
                 <a href={`#${l.id}`} className={`transition-colors ${isActive ? "text-[var(--accent)]" : base}`}>{l.label}</a>
               </li>
             );
