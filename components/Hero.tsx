@@ -53,6 +53,7 @@ export default function Hero() {
         poster="/poster.jpg"
         onPlaying={() => setVideoReady(true)}
       >
+        <source src="/hero.webm" type="video/webm" />
         <source src="/hero.mp4" type="video/mp4" />
       </video>
 

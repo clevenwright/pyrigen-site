@@ -26,14 +26,6 @@ export default function Home() {
         </Reveal>
       </section>
 
-      <section className="mx-auto max-w-3xl px-6 py-40 text-center">
-        <Reveal>
-          <h2 className="text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-tight tracking-tight">
-            We build science-backed AI solutions that accelerate human growth.
-          </h2>
-        </Reveal>
-      </section>
-
       <section id="voicereason" className="scroll-mt-24 px-6 py-40 text-center">
         <div className="mx-auto max-w-3xl">
           <Reveal>
