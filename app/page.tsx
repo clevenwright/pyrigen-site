@@ -2,7 +2,7 @@ import Image from "next/image";
 import Hero from "@/components/Hero";
 import Reveal from "@/components/Reveal";
 import { VoiceReasonMark } from "@/components/VoiceReasonMark";
-import { BeKnown360Mark } from "@/components/BeKnown360Mark";
+import { NameCalled360Mark } from "@/components/NameCalled360Mark";
 
 export default function Home() {
   return (
@@ -106,16 +106,30 @@ export default function Home() {
           <Reveal>
             <VoiceReasonMark className="mb-6 h-20 w-auto mx-auto sm:h-24" />
             <p className="text-sm uppercase tracking-[0.2em] text-black/40">Venture 03</p>
-            <h3 className="mt-4 text-4xl font-semibold tracking-tight">Voice<span className="text-[#6a3cff]">Reason</span></h3>
+            <h3 className="mt-4 text-4xl font-semibold tracking-tight">Voice<span className="text-[#6a3cff]">Reason</span>.AI</h3>
             <div className="mx-auto mt-3 h-[3px] w-16 rounded-full bg-[#6a3cff]" />
             <p className="mt-6 text-xl leading-relaxed text-black/70">
-              Practice the call that decides the deal.
+              Practice the conversation that decides what happens next.
             </p>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
-              VoiceReason is a spoken practice call against an AI buyer who pushes back. A salesperson builds the buyer they are actually dreading, has the conversation out loud, and gets an honest read on where they held and where they folded.
+              VoiceReason.AI is spoken practice with incredibly lifelike AI that sounds human. You talk it through out loud with someone who pushes back like the real thing, a live coach guides you during the call, and afterward you get a scorecard and expert feedback on where you held and where you folded.
             </p>
+            <div className="mx-auto mt-10 grid max-w-2xl gap-6 text-left sm:grid-cols-2">
+              <div className="h-full rounded-2xl bg-white p-8 text-left shadow-[0_8px_40px_rgba(0,0,0,0.05)]">
+                <h4 className="text-xl font-semibold">Sales Coach</h4>
+                <p className="mt-4 leading-relaxed text-black/55">
+                  A salesperson builds the buyer they are dreading and practices the call in their own sales methodology, with a coach on the line to guide them.
+                </p>
+              </div>
+              <div className="h-full rounded-2xl bg-white p-8 text-left shadow-[0_8px_40px_rgba(0,0,0,0.05)]">
+                <h4 className="text-xl font-semibold">Interview Coach</h4>
+                <p className="mt-4 leading-relaxed text-black/55">
+                  A job seeker shares their resume and the job they want, then practices with an interviewer who asks real behavioral questions and follows up on every answer.
+                </p>
+              </div>
+            </div>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
-              Every high-stakes profession rehearses before it performs. Pilots train in simulators, surgeons practise on models, athletes scrimmage. Sales is the last field that still sends people in cold, so the first time a rep says a hard thing out loud is usually to someone who can buy.
+              Every high-stakes profession rehearses before it performs. Pilots train in simulators, surgeons practice on models, athletes scrimmage. Sales calls and job interviews are where most people still go in cold, so the first time they say a hard thing out loud is to someone who decides.
             </p>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
               It rests on two established bodies of research: deliberate practice, which holds that skill comes from focused repetition with honest feedback rather than talent or tenure, and pressure training, which holds that composure under pressure is built by rehearsing under pressure.
@@ -127,27 +141,27 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="beknown360" className="scroll-mt-24 bg-[var(--bg-muted)] px-6 py-40 text-center">
+      <section id="namecalled360" className="scroll-mt-24 bg-[var(--bg-muted)] px-6 py-40 text-center">
         <div className="mx-auto max-w-3xl">
           <Reveal>
-            <BeKnown360Mark className="mb-6 h-20 w-auto mx-auto sm:h-24" />
+            <NameCalled360Mark className="mb-6 h-20 w-auto mx-auto sm:h-24" />
             <p className="text-sm uppercase tracking-[0.2em] text-black/40">Venture 04</p>
-            <h3 className="mt-4 text-4xl font-semibold tracking-tight">BeKnown<span className="text-[#0b7a6f]">360</span></h3>
+            <h3 className="mt-4 text-4xl font-semibold tracking-tight">NameCalled<span className="text-[#0b7a6f]">360</span></h3>
             <div className="mx-auto mt-3 h-[3px] w-16 rounded-full bg-[#0f8b7e]" />
             <p className="mt-6 text-xl leading-relaxed text-black/70">
-              Know where your business shows up. Then get the next move done.
+              We get your business found. You get back to running it.
             </p>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
-              BeKnown360 checks where a business appears on Google Maps, listing sites, Google reviews and AI answers from ChatGPT, Gemini, Claude and Google, and puts it all in one Found score with a history that says in plain words what moved it.
+              NameCalled360 checks where a business shows up on Google Maps, review and listing sites, and in AI answers from ChatGPT, Gemini, Claude and Google, then puts it all in one Found score with a history that says in plain words what moved it.
             </p>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
-              More buyers now ask an AI assistant before they search. Most visibility tools tell an owner what is wrong and stop there. BeKnown360 maps how a buyer actually decides, then gives a plan where every move has a named owner, a next step and a link to the finished work.
+              More buyers now ask an AI assistant before they search. NameCalled360 brings SEO and AI answer optimization (AEO) together in one plan, where every move has a named owner, a next step and a link to the finished work.
             </p>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
-              It is built for owners, not marketers: plain words, guided steps and walkthroughs for every connection. For owners who would rather have it done with them, Pyrigen&apos;s team works BeKnown360 for their business, and nothing goes out in their name until they approve it.
+              It is done for you. Pyrigen&apos;s team checks each business every week and does the work to close the gaps, and nothing goes out in an owner&apos;s name until they approve it.
             </p>
-            <a href="https://beknown360.com" className="mt-8 inline-block text-[var(--accent)] hover:underline">
-              Visit beknown360.com
+            <a href="https://namecalled360.com" className="mt-8 inline-block text-[var(--accent)] hover:underline">
+              Visit namecalled360.com
             </a>
           </Reveal>
         </div>
