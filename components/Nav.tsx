@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import { PyrigenMark } from "./PyrigenLogo";
 
 const links = [
-  { id: "soulanthem", label: "SoulAnthem" },
-  { id: "provemastery", label: "ProveMastery" },
   { id: "voicereason", label: "VoiceReason.AI" },
   { id: "namecalled360", label: "NameCalled360" },
+  { id: "soulanthem", label: "SoulAnthem" },
+  { id: "provemastery", label: "ProveMastery" },
   { id: "contact", label: "Contact" },
 ];
 
