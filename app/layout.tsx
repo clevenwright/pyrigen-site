@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Pyrigen",
-  description: "A studio building evidence-based software ventures.",
+  description: "Pyrigen builds agentic AI products that help people perform when it counts, and custom agentic AI solutions for companies.",
   verification: {
     google: "abc123XYZ_realcodehere",
   },
@@ -33,7 +33,6 @@ export default function RootLayout({
     name: "Pyrigen Incorporated",
     url: "https://pyrigen.com",
     email: "hello@pyrigen.com",
-    foundingDate: "2026",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Dallas",
@@ -52,10 +51,18 @@ export default function RootLayout({
     mainEntity: [
       {
         "@type": "Question",
-        name: "Who founded Pyrigen?",
+        name: "What does Pyrigen do?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Pyrigen was founded in 2026 by Cleven Wright, who serves as Founder and CEO. Before Pyrigen, he spent 25 years in sales, enablement, and AI product leadership, most recently responsible for AI business solutions at a national B2B organization, where he directed cross-functional teams to design and deploy enterprise AI platforms adopted across the organization. That same conviction drives every venture here.",
+          text: "Pyrigen builds agentic AI products that help people perform when it counts, and designs custom agentic AI solutions for companies.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Does Pyrigen build custom AI for companies?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes. Pyrigen designs and builds custom agentic AI solutions for teams that want results like our products deliver, inside their own business. Email hello@pyrigen.com to start a conversation.",
         },
       },
       {
@@ -64,14 +71,6 @@ export default function RootLayout({
         acceptedAnswer: {
           "@type": "Answer",
           text: "Pyrigen Incorporated is a Texas corporation headquartered in Dallas, Texas.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is Pyrigen funded?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Pyrigen is bootstrapped and founder-led.",
         },
       },
       {

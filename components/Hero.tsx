@@ -63,7 +63,7 @@ export default function Hero() {
           Pyrigen
         </h1>
         <p className="hero-sub mt-6 max-w-xl text-lg text-white/80 opacity-0">
-          A studio building evidence-based software ventures.
+          AI products that make people better at the moments that matter.
         </p>
       </div>
     </section>
