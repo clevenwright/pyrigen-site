@@ -6,7 +6,7 @@ const links = [
   { id: "voicereason", label: "VoiceReason.AI" },
   { id: "namecalled360", label: "NameCalled360" },
   { id: "soulanthem", label: "SoulAnthem" },
-  { id: "provemastery", label: "ProveMastery" },
+  { id: "coming-soon", label: "Coming soon" },
   { id: "contact", label: "Contact" },
 ];
 
