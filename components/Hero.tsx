@@ -1,5 +1,5 @@
 "use client";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { SplitText } from "gsap/SplitText";
 import { useGSAP } from "@gsap/react";
@@ -8,7 +8,27 @@ gsap.registerPlugin(SplitText, useGSAP);
 
 export default function Hero() {
   const container = useRef<HTMLElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [videoReady, setVideoReady] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const markReady = () => setVideoReady(true);
+    const fallback = window.setTimeout(markReady, 3000);
+
+    if ((video.readyState >= 3 && !video.paused) || video.currentTime > 0) {
+      markReady();
+    } else {
+      video.addEventListener("playing", markReady);
+    }
+
+    return () => {
+      window.clearTimeout(fallback);
+      video.removeEventListener("playing", markReady);
+    };
+  }, []);
 
   useGSAP(
     () => {
@@ -45,6 +65,7 @@ export default function Hero() {
       className="relative h-screen w-full overflow-hidden bg-black"
     >
       <video
+        ref={videoRef}
         className="hero-video absolute inset-0 h-full w-full object-cover opacity-0"
         autoPlay
         muted
