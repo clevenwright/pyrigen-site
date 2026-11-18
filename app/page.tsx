@@ -127,39 +127,55 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="provemastery" className="scroll-mt-24 bg-[var(--bg-muted)] px-6 py-40 text-center">
-        <div className="mx-auto max-w-3xl">
+      <section id="coming-soon" className="scroll-mt-24 bg-[var(--bg-muted)] px-6 py-40 text-center">
+        <div className="mx-auto max-w-6xl">
           <Reveal>
-            <Image
-              src="/provemastery_seal.png"
-              alt="ProveMastery"
-              width={512}
-              height={512}
-              className="mb-6 h-20 w-auto mx-auto sm:h-24"
-            />
-            <p className="text-sm uppercase tracking-[0.2em] text-black/40">Venture 04</p>
-            <p className="mt-4 inline-block rounded-full bg-black/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.15em] text-black/50">Coming soon</p>
-            <h3 className="mt-4 text-4xl font-semibold tracking-tight">Prove<span className="text-[#059669]">Mastery</span></h3>
-            <div className="mx-auto mt-3 h-[3px] w-16 rounded-full bg-[#059669]" />
-            <p className="mt-6 text-xl leading-relaxed text-black/70">
-              Turn learning into proof of skill.
-            </p>
-            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
-              ProveMastery is an AI training platform built around a six-stage mastery loop that guides learners from first exposure to demonstrated competence. Its core is the Mastery Proof Report, a verifiable record that shows someone can actually do the thing, not just that they finished a course.
-            </p>
-            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
-              Most learning tools own a single step. They deliver content, or they run a quiz. ProveMastery closes the entire loop across six stages: assess, generate, train, reinforce, reassess, and prove.
-            </p>
-            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
-              It is engineered around Hermann Ebbinghaus&apos;s forgetting curve, documented in 1885, which showed that learners forget a majority of new information within days unless it is deliberately reinforced. ProveMastery uses active recall, spaced repetition, and the testing effect to resurface knowledge before it fades.
-            </p>
-            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/55">
-              Its signature difference is that the platform validates its own AI against human experts. Two independent methods compute every mastery score and must agree before a result stands. The output is the Mastery Proof Report, an auditable record that a person genuinely knows what they claim to know.
-            </p>
-            <a href="https://provemastery.ai" className="mt-8 inline-block text-[var(--accent)] hover:underline">
-              Preview provemastery.ai
-            </a>
+            <h2 className="text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-tight tracking-tight">
+              Coming soon
+            </h2>
           </Reveal>
+          <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            <Reveal>
+              <div className="flex h-full flex-col rounded-2xl bg-white p-8 text-left shadow-[0_8px_40px_rgba(0,0,0,0.05)]">
+                <Image src="/provemastery_seal.png" alt="ProveMastery" width={512} height={512} className="h-12 w-auto self-start" />
+                <p className="mt-6 self-start rounded-full bg-black/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.15em] text-black/50">Coming soon</p>
+                <h3 className="mt-4 text-xl font-semibold">ProveMastery</h3>
+                <p className="mt-2 font-semibold text-black/70">Turn learning into proof of skill.</p>
+                <p className="mt-4 flex-1 leading-relaxed text-black/55">An AI training platform that takes learners from first exposure to proven skill, and ends with a verifiable Mastery Proof Report that shows someone can actually do the thing.</p>
+                <a href="https://provemastery.ai" className="mt-6 inline-block text-[var(--accent)] hover:underline">Preview provemastery.ai</a>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="flex h-full flex-col rounded-2xl bg-white p-8 text-left shadow-[0_8px_40px_rgba(0,0,0,0.05)]">
+                <Image src="/logos/trendcast360.svg" alt="TrendCast360" width={512} height={512} unoptimized className="h-12 w-auto self-start" />
+                <p className="mt-6 self-start rounded-full bg-black/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.15em] text-black/50">Coming soon</p>
+                <h3 className="mt-4 text-xl font-semibold">TrendCast360</h3>
+                <p className="mt-2 font-semibold text-black/70">On-brand content, planned and made for you.</p>
+                <p className="mt-4 flex-1 leading-relaxed text-black/55">TrendCast360 plans, writes and makes posts and short videos in your brand voice, backed by real research on who each piece is for. It checks every piece against your brand, and nothing posts until you approve it.</p>
+                <a href="https://trendcast360.com" className="mt-6 inline-block text-[var(--accent)] hover:underline">Visit trendcast360.com</a>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="flex h-full flex-col rounded-2xl bg-white p-8 text-left shadow-[0_8px_40px_rgba(0,0,0,0.05)]">
+                <Image src="/logos/revthunder.svg" alt="RevThunder" width={64} height={64} unoptimized className="h-12 w-auto self-start" />
+                <p className="mt-6 self-start rounded-full bg-black/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.15em] text-black/50">Coming soon</p>
+                <h3 className="mt-4 text-xl font-semibold">RevThunder</h3>
+                <p className="mt-2 font-semibold text-black/70">Find the right people. Say the right thing. Get paid for it.</p>
+                <p className="mt-4 flex-1 leading-relaxed text-black/55">RevThunder is the revenue platform for sales partners, affiliates and agencies. It finds companies that fit, tells you who to reach today and what to say, and tracks every deal and commission.</p>
+                <a href="https://revthunder.com" className="mt-6 inline-block text-[var(--accent)] hover:underline">Visit revthunder.com</a>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="flex h-full flex-col rounded-2xl bg-white p-8 text-left shadow-[0_8px_40px_rgba(0,0,0,0.05)]">
+                <Image src="/logos/shoulderowl.svg" alt="ShoulderOwl" width={64} height={50} unoptimized className="h-12 w-auto self-start" />
+                <p className="mt-6 self-start rounded-full bg-black/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.15em] text-black/50">Coming soon</p>
+                <h3 className="mt-4 text-xl font-semibold">ShoulderOwl</h3>
+                <p className="mt-2 font-semibold text-black/70">The AI that rides on your shoulder.</p>
+                <p className="mt-4 flex-1 leading-relaxed text-black/55">ShoulderOwl listens to your calls and meetings and coaches you in real time on your screen. When you need backup, its AI speaks up with the facts you gave it.</p>
+                <a href="https://shoulderowl.com" className="mt-6 inline-block text-[var(--accent)] hover:underline">Visit shoulderowl.com</a>
+              </div>
+            </Reveal>
+          </div>
         </div>
       </section>
 
